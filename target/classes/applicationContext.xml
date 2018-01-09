@@ -18,4 +18,8 @@
 	<constructor-arg ref="dataSource"></constructor-arg>
 </bean>
 
+<bean class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate">
+	<constructor-arg ref="dataSource"></constructor-arg>
+</bean>
+
 </beans>
