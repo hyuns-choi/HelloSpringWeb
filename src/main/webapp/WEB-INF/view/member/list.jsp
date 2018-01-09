@@ -29,7 +29,6 @@
 						pattern="yyyy-MM-dd" /></td>
 			</tr>
 		</c:forEach>
-
 	</table>
 
 </body>
