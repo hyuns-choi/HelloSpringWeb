@@ -24,5 +24,8 @@
 		<!-- 업로드 가능한 최대 파일 사이즈(단위 바이트) 20mb 기본 2m-->
 		<property name="maxUploadSize" value="20971520"/>
 	</bean>
+	
+	<!-- ** => 서브디렉토리까지 -->
+	<mvc:resources location="/resource/" mapping="/resource/**"/>
 
 </beans>
